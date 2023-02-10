@@ -61,3 +61,240 @@ header{
 
 
 }
+.top-header{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    margin-bottom: 1.5rem;
+}
+.intro-text{
+    font-weight: 200;
+    color: rgb(228, 228, 228);
+    margin-bottom: 10px;
+}
+
+
+
+.past-year-summery{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+
+}
+.summery-img-div{
+    width: 48%;
+    
+}
+.summery-img-div > img{
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px #003ada);
+}
+.summery-details{
+    width: 48%;
+}
+.summery-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 2rem;
+}
+
+.summery-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 15px;
+}
+
+.summery-item{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    color: #363636;
+}
+.summery-item > p{
+    padding-left: 10px;
+}
+
+
+.planing-section{
+    width: 80%;
+    margin: 5rem auto;
+    padding-top: 3rem;
+    text-align: center; 
+}
+.planing-section > h2{
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+
+.year-plannings{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan > h3{
+    margin: 20px 0;
+    font-size: 22px;
+}
+.plan > p{
+    color: #474747;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.bottom-banner{
+    width: 80%;
+    margin: 7rem auto 5rem;
+    height: 268px;
+    background-image: url("../images/watch.png"),linear-gradient(to left, rgba(255,0,0,0), rgb(0, 95, 172));;
+    background-blend-mode: overlay;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-radius: 10px;
+}
+
+.bottom-banner-content{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.bottom-banner-content > h2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+.exercise-section{
+    width: 80%;
+    margin: 0 auto 7rem;
+    padding-top: 5rem;
+}
+.exercise-section > h2{
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: bold;
+    text-align: center;
+}
+.exercise-section img{
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 0 #8a8a8aad, -2px -2px 2px 0 #cfcfcfad;
+    transition: all .25s ease;
+ }
+ .exercise-section img:hover{
+    transform: scale(1.04);
+ }
+.border-img-wrapper{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+.border-img-wrapper > img{
+    width: 65%;
+    margin: 0 auto;
+    filter: drop-shadow(3px 3px 1px rgba(85, 85, 85, 0.548));
+    box-shadow: none;
+}
+.border-img-wrapper > img:hover{
+    transform: scale(1);
+}
+.first-img-wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+.first-img-wrapper > img{
+    width: 100%;
+    margin-bottom: .8rem;
+    
+}
+.mid-img-wrapper{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.gallery-img-left{
+  width: 50%;
+}
+.gallery-img-left > img{
+    width: 100%;
+  }
+.gallery-img-right{
+    width: 50%;
+}
+.gallery-img-right > img{
+    width: 100%;
+}
+.last-img-wrapper{
+    width: 50%;
+    margin: .8rem auto;
+
+}
+.last-img-wrapper > img{
+    width: 100%;
+    
+}
+
+
+footer{
+    width: 100%;
+    background-color: #151414;
+    color: #fff;
+    padding: 5rem 0 3rem;
+}
+
+.footer-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-div > h3{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
+    color: #F8F8F8;
+
+}
+.contact-div p{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 26px;
+    color: #dfdfdf;
+
+}
+.social-icons-div{
+    display: flex;
+    margin-top: 40px;
+    gap: 1rem;
+}
+
+.subscription-div > h4{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.subscription-div > input{
+    background-color: transparent;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    padding: 18px 60px 18px 10px;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    color: #fff;
+}
